@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'popins',Sans serief;
+}
+body{
+	background-color: #dff9fb;
+}
+.row{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 450px;
+	margin-right: 350px;
+	margin-left: 350px;
+	font-size: 35px;
+	padding: 30px;
+}
+img{
+	width: 958px;
+	height: 1280px;
+
+}
+.info{
+	width: 90%; 
+	padding: 15px 0px;
+	text-align: center;
+	border-radius: 3px;
+	background: #001115;
+	color: #fff;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	bottom: -50px;
+}
+.col{
+	position: relative; 
+}
+.info h2{
+	font-weight: normal;
+}
+.info p{
+	margin: 6px 0px;
+}
+.icons .fab{
+	font-size: 60px;
+	padding: 10px;
+	cursor: pointer;
+}
+.fa-facebook{
+	color: #5088fb;
+}
+.fa-youtube{
+	color: #ff0000;
+}
+.fa-twitter{
+	color: #1daaf2;
+}
+.fa-instagram{
+	color: #e95950;
+}
+.pic{
+	filter: grayscale(100%);
+}
+.icons{
+	height: 0;
+	overflow: hidden;
+	transition: height 0.5s; 
+}
+.col:hover .icons{
+	height: 100px;
+}
+.Layer{
+	position: absolute;
+	top: 0;
+	border-bottom: 15px solid red;
+	max-height: 0;
+	overflow: hidden;
+	transition: height 10s; 
+}
+.col:hover .Layer {
+	max-height: 1500px;
+}
+

@@ -1,0 +1,224 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #edf0f5;
+}
+header{
+	height: 95px;
+	background-color: #3b5998;
+	border-bottom: 0.5px solid black;
+}
+header h1{
+	float: left;
+	padding-left: 10%;
+	color: white;
+	font-weight: 800;
+	font-family: Verdana;
+	font-size: 36px;
+	text-shadow: 1px 1px 1px grey;
+}
+header h1:hover{
+	cursor: pointer;
+}
+header table{
+	float: right;
+	padding-right: 10%;
+	padding-top: 1%;
+	color: white;
+	font-size: 10px;
+	font-family: Arial;
+}
+table tr{
+	padding-left: 15px;
+}
+table tr td input{
+	border: 1px solid black;
+	height: 20px;
+}
+table tr td button{
+	border: none;
+	background-color: #4267b2;
+	color:white;
+	font-family: Arial;
+	padding: 3px 4px;
+	border: 1px solid #29487d;
+}
+table tr td button:hover{
+	cursor: pointer;
+	background-color: #3b5598 
+}
+.table tr td a{
+	opacity: 0.6; 
+	text-decoration: none;
+}
+.table tr td a:hoer{
+	cursor: pointer;
+	text-decoration: underline;
+}
+img{
+	
+	height: 300px;
+}
+table tr td input{
+	width: 172px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+}
+.table2 tr td input{
+	width: 385px;
+	border: none;
+	margin-bottom: 10px
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+}
+table tr td input::placeholder{
+	color: #424949;
+	font-size: 18px;
+}
+.table2 tr td input::placeholder{
+	color: #424949;
+	font-size: 18px;
+}
+.part1{
+	clear: both;
+	font-family: Verdana;
+	color: #333333;
+	font-size: 12px;
+	width: 500px;
+	display: inline;
+	margin-left: 150px;
+	float: left;
+}
+.part h1{
+	width: 90%;
+}
+.part2{
+	float: right;
+	margin-top: 20px;
+}
+.Sign{
+	font-family: Arial;
+	color: #333333;
+}
+.Sign h1{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.note{
+	font-size: 20px;
+	color: #333333;
+	font-family: Arial;
+	padding: 20px;
+}
+.date{
+	margin-left: 15px; 
+	margin-top: 10px;
+} 
+select{
+	background-color: white;
+	width: 70px;
+	padding: 5px;
+	height: 30px;
+	border: 1px solid #ccd1d1;
+	margin-top: 10px;
+}
+.date span{
+	font-size: 18px;
+	color: #7f8c8d;
+	font-family: Arial;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.gender{
+	margin-top:  20px;
+	margin-left: 15px; 
+}
+.gender span{
+	font-size: 18px;
+	color: #7f8c8d;
+	font-family: Arial;
+	margin-top:  30px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+.gender div{
+	float: left;
+	font-size: 18px;
+	color: #1d2129;
+	font-family: Arial;
+	margin-top:  10px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.TR{
+	clear: both;
+	width: 300px;
+	font-size: 11px;
+	margin-left: 15px;
+	margin-top: 15px;
+	color: #71747e;
+	font-family: Arial;
+}
+.TR span{
+	color: #5499c7;
+}
+.TR span::hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.Sign_btn{
+	 width: 200px;
+	 height: 40px;
+	 background-color: #5e9a4b;
+	 color: white;
+	 border-radius: 5px;
+	 margin-top: 10px;
+	 margin-left: 15px;
+	 font-size: 19px;
+	 position: relative;
+	 text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	 cursor: pointer;
+	 font-family: 'Freight sans Bold',Helvetica ,arial, sans serief!important;
+	 font-weight: bold;
+	 letter-spacing: normal;
+	 background: line-gradient(#67ae55 , #578843);
+	 background-color: #64a04a;
+	 box-shadow: inset 0 1px 1px #a4e388;
+	 border: 1px solid #3b6e22;
+	 padding: 7px 20px;
+}
+.Sign_btn:hover{
+	background: line-gradient(#7bb960 , #578843);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
